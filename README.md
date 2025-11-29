@@ -30,3 +30,14 @@ Why built-in datasets?
 You can practice without collecting data
 Clean and ready for plotting
 Standard datasets used in ML + visualizations
+
+1. Differnt Seaborn Plots are: 
+🔹 A. Relational Plots
+
+These show relationships between variables:
+
+a. Scatter Plot
+sns.scatterplot(data=df, x="total_bill", y="tip")
+plt.show()
+
+
