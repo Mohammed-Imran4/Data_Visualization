@@ -25,3 +25,8 @@ c.Load dataset
 df = sns.load_dataset("tips")
 df.head()
 this will show the starting 5 dataset of the "tips" dataset
+
+Why built-in datasets?
+You can practice without collecting data
+Clean and ready for plotting
+Standard datasets used in ML + visualizations
