@@ -66,3 +66,11 @@ plt.show()
 sns.violinplot(data=df, x="day", y="total_bill")
 plt.show()
 
+* Stripplot
+sns.stripplot(data=df, x="day", y="total_bill")
+plt.show()
+
+* Swarmplot
+sns.swarmplot(data=df, x="day", y="total_bill")
+plt.show()
+
