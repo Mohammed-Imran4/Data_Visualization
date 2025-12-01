@@ -74,3 +74,10 @@ plt.show()
 sns.swarmplot(data=df, x="day", y="total_bill")
 plt.show()
 
+* Pointplot
+sns.pointplot(data=df, x="day", y="total_bill")
+plt.show()
+
+* catplot (Wrapper)
+sns.catplot(data=df, x="day", y="total_bill", kind="bar")
+plt.show()
