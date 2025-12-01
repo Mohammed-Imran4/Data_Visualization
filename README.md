@@ -58,4 +58,11 @@ plt.show()
 sns.countplot(data=df, x="day")
 plt.show()
 
+* Boxplot
+sns.boxplot(data=df, x="day", y="total_bill")
+plt.show()
+
+* Violinplot
+sns.violinplot(data=df, x="day", y="total_bill")
+plt.show()
 
