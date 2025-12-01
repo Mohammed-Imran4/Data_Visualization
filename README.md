@@ -40,4 +40,14 @@ a. Scatter Plot
 sns.scatterplot(data=df, x="total_bill", y="tip")
 plt.show()
 
+b.Line Plot
+sns.lineplot(data=df, x="total_bill", y="tip")
+plt.show()
+
+c.relplot (Facet version)
+sns.relplot(data=df, x="total_bill", y="tip", kind="scatter")
+plt.show()
+
+
+
 
