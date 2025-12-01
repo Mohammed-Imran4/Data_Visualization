@@ -48,6 +48,14 @@ c.relplot (Facet version)
 sns.relplot(data=df, x="total_bill", y="tip", kind="scatter")
 plt.show()
 
+2.Categorical Plots:
+Used for category-wise comparison.
+* Barplot
+sns.barplot(data=df, x="day", y="total_bill")
+plt.show()
 
+* Countplot
+sns.countplot(data=df, x="day")
+plt.show()
 
 
