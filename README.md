@@ -87,7 +87,13 @@ plt.show()
 sns.histplot(df["total_bill"], kde=True)
 plt.show()
 
-*KDE Plot
+* KDE Plot
 sns.kdeplot(df["total_bill"])
 plt.show()
 
+* ECDF Plot
+sns.ecdfplot(df["total_bill"])
+plt.show()
+
+* Displot (Wrapper)
+sns.displot(df["total_bill"], kde=True)
