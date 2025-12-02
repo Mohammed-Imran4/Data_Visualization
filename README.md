@@ -97,3 +97,9 @@ plt.show()
 
 * Displot (Wrapper)
 sns.displot(df["total_bill"], kde=True)
+
+* Jointplot
+sns.jointplot(data=df, x="total_bill", y="tip", kind="scatter")
+
+* Pairplot
+sns.pairplot(df[["total_bill","tip","size"]])
