@@ -81,3 +81,13 @@ plt.show()
 * catplot (Wrapper)
 sns.catplot(data=df, x="day", y="total_bill", kind="bar")
 plt.show()
+
+3. Distribution Plots
+* Histogram
+sns.histplot(df["total_bill"], kde=True)
+plt.show()
+
+*KDE Plot
+sns.kdeplot(df["total_bill"])
+plt.show()
+
