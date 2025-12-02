@@ -82,7 +82,7 @@ plt.show()
 sns.catplot(data=df, x="day", y="total_bill", kind="bar")
 plt.show()
 
-3. Distribution Plots
+3. Distribution Plots:
 * Histogram
 sns.histplot(df["total_bill"], kde=True)
 plt.show()
@@ -103,3 +103,8 @@ sns.jointplot(data=df, x="total_bill", y="tip", kind="scatter")
 
 * Pairplot
 sns.pairplot(df[["total_bill","tip","size"]])
+
+4. Regression Plots:
+1. regplot
+sns.regplot(data=df, x="total_bill", y="tip")
+plt.show()
