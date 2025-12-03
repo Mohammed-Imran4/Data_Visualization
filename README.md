@@ -128,3 +128,11 @@ plt.show()
 . Cluster Map
 sns.clustermap(df.corr(), annot=True)
 plt.show()
+
+4. Styling in Seaborn
+. Set Theme
+sns.set_theme(style="darkgrid")
+
+Color Palettes
+sns.color_palette("pastel")
+sns.set_palette("husl")
