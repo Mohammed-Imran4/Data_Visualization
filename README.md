@@ -108,3 +108,14 @@ sns.pairplot(df[["total_bill","tip","size"]])
 1. regplot
 sns.regplot(data=df, x="total_bill", y="tip")
 plt.show()
+
+lmplot (Facet version)
+sns.lmplot(data=df, x="total_bill", y="tip", col="sex")
+plt.show()
+
+*. Regression line explanation
+A line shows the average trend
+Useful for predicting relationships
+
+*. CI (Confidence Interval)
+Shaded band around regression line → shows uncertainty.
