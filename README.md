@@ -133,6 +133,9 @@ plt.show()
 . Set Theme
 sns.set_theme(style="darkgrid")
 
-Color Palettes
+. Color Palettes
 sns.color_palette("pastel")
 sns.set_palette("husl")
+
+. Figure Size
+plt.figure(figsize=(8,5))
