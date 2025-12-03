@@ -119,3 +119,12 @@ Useful for predicting relationships
 
 *. CI (Confidence Interval)
 Shaded band around regression line → shows uncertainty.
+
+**. Matrix Plots **
+. Heatmap
+sns.heatmap(df.corr(), annot=True)
+plt.show()
+
+. Cluster Map
+sns.clustermap(df.corr(), annot=True)
+plt.show()
