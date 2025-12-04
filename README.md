@@ -139,3 +139,11 @@ sns.set_palette("husl")
 
 . Figure Size
 plt.figure(figsize=(8,5))
+
+. Context Styles
+sns.set_context("paper")
+sns.set_context("talk")
+
+5. Facet Grid / Multi-Plotting:
+Used for plotting by category (rows/cols).
+
