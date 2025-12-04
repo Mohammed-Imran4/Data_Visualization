@@ -147,3 +147,8 @@ sns.set_context("talk")
 5. Facet Grid / Multi-Plotting:
 Used for plotting by category (rows/cols).
 
+* FacetGrid Example
+sns.FacetGrid(df, col="sex").map(sns.histplot, "total_bill")
+
+* catplot
+sns.catplot(data=df, x="day", y="total_bill", kind="box", col="sex")
