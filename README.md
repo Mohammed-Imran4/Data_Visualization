@@ -152,3 +152,10 @@ sns.FacetGrid(df, col="sex").map(sns.histplot, "total_bill")
 
 * catplot
 sns.catplot(data=df, x="day", y="total_bill", kind="box", col="sex")
+
+* relplot
+sns.relplot(data=df, x="total_bill", y="tip", col="sex")
+
+* displot
+sns.displot(df, x="total_bill", col="day")
+
