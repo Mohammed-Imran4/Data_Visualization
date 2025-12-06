@@ -166,3 +166,9 @@ ax = sns.barplot(data=df, x="day", y="tip")
 ax.set_title("Tips per Day")
 ax.set_xlabel("Day")
 ax.set_ylabel("Tip Amount")
+
+You can use:
+ax.set_title()
+ax.set_xlabel()
+ax.set_ylabel()
+This allows mixing Matplotlib with Seaborn.
