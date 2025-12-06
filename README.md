@@ -159,3 +159,10 @@ sns.relplot(data=df, x="total_bill", y="tip", col="sex")
 * displot
 sns.displot(df, x="total_bill", col="day")
 
+## Combining Seaborn + Matplotlib ##
+Seaborn returns a Matplotlib Axes object:
+Example:
+ax = sns.barplot(data=df, x="day", y="tip")
+ax.set_title("Tips per Day")
+ax.set_xlabel("Day")
+ax.set_ylabel("Tip Amount")
